@@ -1,0 +1,89 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>House of the Dragon API</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        padding: 20px;
+        background-color: #f0f0f0;
+        color: #333;
+      }
+      h1,
+      h2 {
+        text-align: center;
+      }
+      .container {
+        max-width: 800px;
+        margin: auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .instruction {
+        margin-bottom: 20px;
+      }
+      .endpoint {
+        margin-bottom: 30px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #f9f9f9;
+      }
+      .endpoint h3 {
+        margin-top: 0;
+      }
+      .endpoint p {
+        margin-bottom: 10px;
+      }
+      .endpoint a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to House of the Dragon API</h1>
+
+      <div class="instruction">
+        <h2>Overview:</h2>
+        <p>
+          This API provides information about characters from House of the
+          Dragon.
+        </p>
+      </div>
+
+      <div class="endpoint">
+        <h3>Get All Characters</h3>
+        <p>Get a list of all characters.</p>
+        <p>Endpoint: <a href="/characters">/characters</a></p>
+      </div>
+
+      <div class="endpoint">
+        <h3>Get Character by ID</h3>
+        <p>Get information about a specific character by their ID.</p>
+        <p>
+          Endpoint: <a href="/characters/1">/characters/{id}</a> (replace `{id}`
+          with a number)
+        </p>
+      </div>
+
+      <div class="endpoint">
+        <h3>Example Usage:</h3>
+        <p>To get all characters:</p>
+        <pre><code>GET /characters</code></pre>
+        <p>To get character with ID 1:</p>
+        <pre><code>GET /characters/1</code></pre>
+      </div>
+
+      <p>Explore the API and have fun!</p>
+    </div>
+  </body>
+</html>
