@@ -18,7 +18,7 @@ const characters = [
     name: "Daemon Targaryen",
     house: "Targaryen",
     title: "Prince",
-    img: "./public/images/daemon_targaryen.webp",
+    img: "./public/images/daemon_targaryen.jpg",
   },
   {
     id: 2,
