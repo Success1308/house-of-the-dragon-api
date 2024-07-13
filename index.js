@@ -18,7 +18,7 @@ const characters = [
     name: "Daemon Targaryen",
     house: "Targaryen",
     title: "Prince",
-    img: "./public/images/daemon_targaryen.jpg",
+    img: "https://raw.githubusercontent.com/Success1308/house-of-the-dragon-api/main/public/images/Aegon_II_Targaryen.webp",
   },
   {
     id: 2,
